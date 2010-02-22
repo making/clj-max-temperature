@@ -34,7 +34,7 @@
  )
 
 (defn reducer-reduce [this key #^Iterable values #^Reducer$Context context]  
-  (.write context key (IntWritable. (apply max (map #(.get %) values))))
+  (.write context key (IntWritable. (reduce max (map #(.get %) values))))
   )
 
 (defn -main [& args]
