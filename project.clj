@@ -9,10 +9,6 @@
                  [commons-httpclient/commons-httpclient "3.0.1"]
                  [commons-logging/commons-logging "1.0.4"]
                  [commons-logging/commons-logging-api "1.0.4"]
-                 [commons-net/commons-net "1.4.1"]
-                 ]
+                 [commons-net/commons-net "1.4.1"]]
   :dev-dependencies [[leiningen/lein-swank "1.1.0"]]
-  :namespaces [clj-max-temperature
-               ]
-  :main clj_max_temperature
-  )
+  :main clj-max-temperature)
