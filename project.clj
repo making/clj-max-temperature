@@ -1,4 +1,4 @@
-(defproject clj-max-temperature "0.1.0-SNAPSHOT" 
+(defproject clj_max_temperature "0.1.0-SNAPSHOT" 
   :description "Sample of Hadoop on Clojure" 
   :dependencies [[org.clojure/clojure "1.1.0"]
                  [org.clojure/clojure-contrib "1.1.0"]
@@ -11,4 +11,4 @@
                  [commons-logging/commons-logging-api "1.0.4"]
                  [commons-net/commons-net "1.4.1"]]
   :dev-dependencies [[leiningen/lein-swank "1.1.0"]]
-  :main clj-max-temperature)
+  :main clj_max_temperature)
