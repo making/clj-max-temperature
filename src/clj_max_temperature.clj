@@ -1,4 +1,4 @@
-(ns clj-max-temperature
+(ns clj_max_temperature
   (:gen-class)
   (:import (org.apache.hadoop.fs Path)
            (org.apache.hadoop.io IntWritable LongWritable Text)
