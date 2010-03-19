@@ -1,4 +1,4 @@
-(defproject clj_max_temperature "0.1.0-SNAPSHOT" 
+(defproject clj-max-temperature "0.1.0-SNAPSHOT" 
   :description "Sample of Hadoop on Clojure" 
   :dependencies [[org.clojure/clojure "1.1.0"]
                  [org.clojure/clojure-contrib "1.1.0"]
